@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .app-header {
+    text-align: center;
+  }
+
+  .nav-list {
+    padding: 0;
+  }
+
+  .nav-list li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
