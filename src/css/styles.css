@@ -1,0 +1,115 @@
+/* Base styles for the landing page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Styles for menu toggle and navigation menu */
+.menu-toggle {
+  display: none;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+}
+
+.nav-menu a {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    padding: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    position: static;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 18px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
