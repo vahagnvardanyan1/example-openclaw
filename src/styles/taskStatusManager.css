@@ -1,0 +1,24 @@
+div[role="list"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+div[role="listitem"] {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+span {
+  margin-right: 10px;
+  font-weight: bold;
+}
