@@ -1,0 +1,52 @@
+/* Define light theme variables */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #6200ea;
+  --secondary-color: #03dac6;
+  --error-color: #b00020;
+  --surface-color: #ffffff;
+  --on-primary-color: #ffffff;
+  --on-secondary-color: #000000;
+  --on-error-color: #ffffff;
+  --on-surface-color: #000000;
+}
+
+/* Define dark theme variables */
+.dark-mode {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --primary-color: #bb86fc;
+  --secondary-color: #03dac6;
+  --error-color: #cf6679;
+  --surface-color: #121212;
+  --on-primary-color: #000000;
+  --on-secondary-color: #000000;
+  --on-error-color: #000000;
+  --on-surface-color: #ffffff;
+}
+
+/* Example usage of theme variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+}
+
+button.secondary {
+  background-color: var(--secondary-color);
+  color: var(--on-secondary-color);
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.surface {
+  background-color: var(--surface-color);
+  color: var(--on-surface-color);
+}
